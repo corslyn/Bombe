@@ -1,0 +1,20 @@
+{
+    "name": "enzo/bombe",
+    "description": "Implementation of Bombe machine in php",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "7.2.x-dev"
+    },
+    "license": "GPL 3.0",
+    "autoload": {
+        "psr-4": {
+            "Enzo\\Bombe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enzo MANZINALI"
+        }
+    ],
+    "minimum-stability": "dev"
+}
